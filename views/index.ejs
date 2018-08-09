@@ -1,0 +1,25 @@
+<% include partials/header %>
+<div class="container">
+  <div class="row">
+    <div class="eleven columns text-center">
+        <h2>Hello Mr Paulino</h2>
+    </div>
+    <form action="/send" method="POST">
+      <div class="row">
+        <div class="six columns">
+          <label for="email">Your email</label>
+          <input class="u-full-width" type="email" placeholder="Email" id="email">
+          <label for="message">Message</label>
+          <textarea class="u-full-width" placeholder="Message" id="message" rows="8"></textarea>
+          <input class="button-primary" type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+<% include partials/footer %>
